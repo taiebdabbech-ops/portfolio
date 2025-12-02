@@ -1,5 +1,4 @@
 :root {
-  /* Colors */
   --primary: #00c9b7;
   --primary-light: #20e3d0;
   --primary-dark: #009688;
@@ -9,29 +8,27 @@
   --bg: #f9faf8;
   --bg-alt: #ffffff;
   --border: #e5e7eb;
-  
- 
+
+
   --h1: 3rem;
   --h2: 2.25rem;
   --h3: 1.5rem;
   --body: 1rem;
   --small: 0.875rem;
-  
- 
+
+
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 1.5rem;
   --space-lg: 2rem;
   --space-xl: 3rem;
-  
-  /* Effects */
+
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
   --radius: 0.5rem;
 }
 
-/* Reset & Base */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -51,7 +48,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Typography: headings use Playfair Display for a formal tone */
 h1, h2, h3, h4 {
   font-family: "Playfair Display", serif;
 }
@@ -61,7 +57,6 @@ img {
   display: block;
 }
 
-/* Layout & Container */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -69,7 +64,6 @@ img {
   padding: 0 var(--space-sm);
 }
 
-/* Header & Navigation */
 .site-header {
   position: fixed;
   top: 0;
@@ -133,7 +127,6 @@ img {
   width: 100%;
 }
 
-/* Hero Section */
 .hero {
   min-height: calc(100vh - 80px);
   padding: var(--space-xl) 0;
@@ -197,7 +190,6 @@ img {
   margin-bottom: 1.5rem;
 }
 
-/* Hero grid: text + profile card */
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -249,7 +241,6 @@ img {
 
 .hero-meta p { color: rgba(255,255,255,0.9); margin: 6px 0; font-size: 0.95rem; }
 
-/* Projects grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -269,7 +260,6 @@ img {
 
 .card.project h4 { margin-bottom: 0.5rem; }
 
-/* Button refinements for a formal look */
 .btn {
   padding: 0.9em 1.6em;
   border-radius: 8px;
@@ -309,7 +299,6 @@ button:hover {
   background: #0096c7;
 }
 
-/* Common Section Styles */
 section {
   padding: var(--space-xl) 0;
   position: relative;
@@ -333,7 +322,6 @@ section {
   font-weight: 400;
 }
 
-/* Card Styles */
 .card {
   background: var(--bg);
   border-radius: var(--radius);
@@ -347,7 +335,6 @@ section {
   box-shadow: var(--shadow-lg);
 }
 
-/* About Section */
 .about {
   background: var(--bg-alt);
 }
@@ -370,7 +357,6 @@ section {
   font-weight: 500;
 }
 
-/* Tech Stack */
 .tech-stack {
   margin-top: var(--space-xl);
 }
@@ -403,7 +389,6 @@ section {
   transform: scale(1.05);
 }
 
-/* Achievements */
 .achievements {
   margin-top: var(--space-xl);
 }
@@ -444,7 +429,6 @@ section {
   margin-bottom: 0.5rem;
 }
 
-/* Contact Section */
 .contact {
   background: var(--bg-alt);
 }
@@ -496,7 +480,6 @@ section {
   color: var(--primary-dark);
 }
 
-/* Footer */
 .site-footer {
   background: var(--text);
   color: white;
